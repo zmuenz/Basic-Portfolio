@@ -96,6 +96,7 @@ p{
 }
 
 .footer{
+	position: 
 	background: #666666;
 	border-top: 5px solid #4aaaa5;
 	bottom: 0;
@@ -115,7 +116,7 @@ p{
 	font-size: 16px;
 }
 
-html, body{
+html {
 	height: 100%;
 	margin: 0;
 }
@@ -123,6 +124,8 @@ html, body{
 body{
 	background-image: url('../images/dust_scratches.png');
 	background-repeat: repeat;
+	height: 100%;
+	margin: 0 0 30px;
 }
 
 .wrapper {
@@ -237,17 +240,4 @@ h4{
 	line-height: 1em;
 	color: #fff;
 	font-family: "Georgia", Times, Times New Roman, serif;
-}
-
-
-.wrapper {
-  min-height: 100%;
-
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -75px;
-}
-
-.push {
-  height: 75px;
 }
